@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<svg id="vuesax/linear/speedometer" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; max-height: 100%;">
+<path d="M63.8001 65C69.7001 59 73.3334 50.7333 73.3334 41.6667C73.3334 23.2667 58.4001 8.33333 40.0001 8.33333C21.6001 8.33333 6.66675 23.2667 6.66675 41.6667C6.66675 50.7333 10.2667 58.9333 16.1334 64.9667" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0,0,156.36837768554688"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,156.36837768554688; 
+          0,78.18418884277344,78.18418884277344,0; 
+          156.36837768554688,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></path>
+<path d="M40.0001 71.6667C46.2225 71.6667 51.2668 66.6224 51.2668 60.4C51.2668 54.1776 46.2225 49.1333 40.0001 49.1333C33.7777 49.1333 28.7334 54.1776 28.7334 60.4C28.7334 66.6224 33.7777 71.6667 40.0001 71.6667Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0,0,70.80075073242188"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,70.80075073242188; 
+          0,35.40037536621094,35.40037536621094,0; 
+          70.80075073242188,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></path>
+<path d="M50.8333 40H53.3333C56.0666 40 58.3333 37.7667 58.3333 35C58.3333 32.2667 56.0666 30 53.3333 30C50.5999 30 48.3333 32.2333 48.3333 35V37.5C48.3333 38.8667 49.4666 40 50.8333 40Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0,0,32.46471405029297"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,32.46471405029297; 
+          0,16.232357025146484,16.232357025146484,0; 
+          32.46471405029297,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></path>
+<setting>{"type":"direct","speed":20,"random":1,"shift":1,"size":1,"rupture":50}</setting></svg>
