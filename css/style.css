@@ -572,13 +572,12 @@ line-height: 1.5;
 
 .footer-links li a {
     text-decoration: none;
-    color: #dcdcdc;
+    color: #333;
     display: block;
-    padding: 10px 0;
-    font-weight: normal;
-    font-size: 14px;
+    padding: 8px 0;
+    font-weight: 400;
+    font-size: 16px;
     text-align: left;
-    font-weight: 300;
 }
 .footer-links {
     padding: 0;
@@ -1490,20 +1489,18 @@ margin: -20px;
 .pool-sociel-icons  {
   display: flex;
         align-items: center;
-        justify-content: center;
-        margin-top: 50px;
 }
 .pool-sociel-icons svg path{
   fill: var(--yellow-color);
 }
 .pool-sociel-icons a{
   display: block;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 .pool-sociel-icons svg {
-  height: 40px;
-        width: 40px;
+  height: 30px;
+        width: 35px;
 }
 .footer-item-box {
   width: 50%;
@@ -1518,24 +1515,8 @@ margin: -20px;
   position: relative;
   transition: all .3s;
 }
-.pool-sociel-icons a:hover:before{
-  content: "";
-  --size: 50px;
-  width: var(--size);
-  height: var(--size);
-  background-color: var(--yellow-color);
-  border-radius: 50%;
-  position: absolute;
-  z-index: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  margin: auto;
-  filter: blur(30px);
-
-}
 .pool-sociel-icons a:hover {
-  transform: scale(1.3);
+  transform: scale(1.5);
 }
 .hero-texts {
   padding-left: 50px;
@@ -1747,6 +1728,10 @@ border: none;
 .container-pop:hover {
   transform: scale(0.54);
 }
+.person:hover .container-pop{
+  transform: scale(0.54);
+
+}
 .container-inner {
   clip-path: path(
     "M 390,400 C 390,504.9341 304.9341,590 200,590 95.065898,590 10,504.9341 10,400 V 10 H 200 390 Z"
@@ -1856,9 +1841,50 @@ border: none;
         padding: 15px;
         background: #fff;
         border-radius: 8px;
+        margin-bottom: 10px;
+        margin-top: 10px;
 }
 .cp-logos a img{
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+.footer-bg {
+  position: relative;
+}
+.footer-bg:before {
+  content: "";
+  width: 150%;
+  height: 100%;
+  background: var(--theme-color);
+  right: 0;
+  top: 0;
+  position: absolute;
+  border-radius: 0px 149px 0px 0px;
+}
+.pool-sociel-icons path {
+  fill: #fff !important
+}
+.footer-label {
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+text-transform: uppercase;
+color: var(--theme-color);
+}
+.pool-sociel-icons.teams-icon {
+  margin-top: 20px;
+}
+.pool-sociel-icons.teams-icon path{
+  fill: var(--theme-color) !important
+}
+.pool-sociel-icons.teams-icon svg {
+  height: 20px;
+  width: 20px;
+}
+.road-card.card-blue .r-icon {
+  filter: invert(1);
 }
