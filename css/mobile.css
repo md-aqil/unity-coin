@@ -559,6 +559,10 @@
 	position: relative;
 	height: 300px;
 }
+.graph-list li {
+	font-size: 21px;
+	padding: 10px 0;
+}
 }
 
 /* mobile css END herer =====================================*/
