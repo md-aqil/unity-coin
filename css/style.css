@@ -1291,9 +1291,9 @@ margin: 0;
   background: var(--gray-color);
   position: relative;
   /* overflow: hidden; */
-  background: url(../img/hero-image.png) var(--gray-color) center no-repeat;
-  background-position: 0 200px;
-  background-size: 100%;
+  background: url(../img/herosection.webp) var(--gray-color) center no-repeat;
+  background-position: 0 530px;
+  background-size: 92%;
   background-position: fixed;
 }
 #hero {
@@ -1733,9 +1733,9 @@ border: none;
 
 }
 .container-inner {
-  clip-path: path(
+  /* clip-path: path(
     "M 390,400 C 390,504.9341 304.9341,590 200,590 95.065898,590 10,504.9341 10,400 V 10 H 200 390 Z"
-  );
+  ); */
   position: relative;
   transform-origin: 50%;
   top: -200px;
@@ -1887,4 +1887,7 @@ color: var(--theme-color);
 }
 .road-card.card-blue .r-icon {
   filter: invert(1);
+}
+.blockchain-img {
+  width: 100%;
 }
