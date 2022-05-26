@@ -1600,15 +1600,11 @@ margin: -20px;
   width: 229px;
   margin: 20px auto;
 }
-.art-circle {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
+
 .art-circle {
   position: absolute;
         left: -280px;
-        bottom: -30px;
+        bottom: -90px;
         width: 60%;
 }
 
