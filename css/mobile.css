@@ -545,7 +545,7 @@
 	margin-left: 0px !important;
 }
 .site-footer {
-	background: var(--theme-color);
+	background: var(--theme-color) !important;
 }
 .footer-links li a ,.footer-label{
 	color: #fff;
@@ -562,6 +562,9 @@
 .graph-list li {
 	font-size: 21px;
 	padding: 10px 0;
+}
+.claim-token-card , .claim-token-card  .form-group {
+	width: 100% !important;
 }
 }
 
