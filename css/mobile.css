@@ -444,7 +444,7 @@
 .hero-sec {
 	width: 100%;
 	height: 700px;
-	background-position: 0 480px;
+	background-position: 0 550px;
 	
 }
 
@@ -571,6 +571,9 @@
 }
 .pcps .form-group {
 	width: 100%;
+}
+.service-list li.ml-4{
+	margin-left: 10px !important;
 }
 }
 
