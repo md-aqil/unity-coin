@@ -12,6 +12,9 @@
 	:root {
 		--title-fontsize: 30px;
 	}
+	.group-19{
+		right: 0 !important;
+	}
 	.arch {
 		display: none;
 	}
@@ -574,6 +577,12 @@
 }
 .service-list li.ml-4{
 	margin-left: 10px !important;
+}
+.who-img {
+
+}
+.hero-p-img {
+	margin-top: 40px !important;
 }
 }
 

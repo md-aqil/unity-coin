@@ -8,8 +8,8 @@
 	parallax: true,
 	freeMode: true,
 	loop:true,
-	slidesPerView: 1,
-	spaceBetween: 0,
+	slidesPerView: 4,
+	spaceBetween: 20,
 	grabCursor: true,
 	slidesPerView: 4,
 	breakpoints: {
@@ -38,7 +38,6 @@
 	   }
   });
 
-  Splitting(); 
   $('.faq-heading').click(function () {
     $(this).parent('li').toggleClass('active').find('.faq-text').slideToggle();
 });
@@ -227,5 +226,10 @@ $('.bordered-title').click(function() {
 
 })
 
-
+var scene = document.getElementById('scene');
+		var parallax = new Parallax(scene)
   
+var scene2 = document.getElementById('scene2');
+var parallax = new Parallax(scene2)
+var scene2 = document.getElementById('scene3');
+var parallax = new Parallax(scene3)
